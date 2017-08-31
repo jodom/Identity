@@ -70,6 +70,10 @@
 					bottom: 1em;
 				}
 				align-self: center;
+				&:hover {
+					.snippet{
+					}
+				}
 				.content-img{
 					position: relative;
 					top: 0;
@@ -81,35 +85,25 @@
 					bottom: 0;
 					height: 4em;
 					width: 100%;
-					border: _size(border-width) solid _palette(border);
+					border-top: _size(border-width) solid _palette(border);
 					background-color: _palette(bg);
-					a {
-						h4 {
-
-						}
-					}
 					.tags {
-
-					}
-				}
-				&:hover {
-					.snippet{
+						position: absolute;
+						display: block;
+						width: 100%;
+						bottom: 0;							
+						text-align: center;
+						text-transform: capitalize;
+						font-size: 12px;
+						color: _palette(border);
 					}
 				}
 			}
 		}
 
 
-		// @include breakpoint(xsmall) {
-		// 	min-width: 0;
-		// 	width: 100%;
-		// 	// @include padding(4em, 2em);
-
-		// 	// .avatar {
-		// 	// 	&:before {
-		// 	// 		left: -2em;
-		// 	// 		width: calc(100% + 4em);
-		// 	// 	}
-		// 	// }
-		// }
+		@include breakpoint(xsmall) {
+			min-width: 0;
+			width: 100%;
+		}
 	}
