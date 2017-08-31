@@ -53,6 +53,12 @@
 				background: _palette(border);
 			}
 		}
+		.mail{
+			margin-left: -1em;
+			li {
+				list-style: none;
+			}
+		}
 
 		@include breakpoint(xsmall) {
 			min-width: 0;

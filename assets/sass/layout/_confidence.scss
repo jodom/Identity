@@ -1,0 +1,147 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+///
+///
+///
+
+/* Skill section */
+
+	#confidence {
+		position: relative;
+		max-width: 768px;
+		min-width: 27em;
+		@include padding(1em, 1em);
+		margin-top: 2em;
+
+		background: _palette(bg);
+		border-radius: _size(border-radius);
+		cursor: default;
+		opacity: 0.95;
+		text-align: center;
+
+		.heading {
+			position: relative;
+			display: block;
+			margin-bottom: _size(element-margin);
+			h2 {
+				width: 50%;
+				margin: 0 auto;
+				background-color: _palette(bg);
+				border: _size(border-width) solid _palette(border);
+			}
+			h4 {
+				margin-top: 0.5em;
+			}
+
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0.8em;
+				left: -1em;
+				width: calc(100% + 2em);
+				height: _size(border-width);
+				z-index: -1;
+				background: _palette(border);
+			}
+		}
+		.content {
+			position: relative;
+			display: block;
+			text-align: left;
+			padding-top: 0;
+			margin-top: 0;
+			&:before{
+				position: absolute;
+				top: 0;
+				height: 100%;
+				margin-left: 0.4em;
+				width: _size(border-width);
+				background-color: _palette(border);
+				content: " ";
+			}
+		}
+
+		.content-header,
+		.content-spot,
+		.content-content,
+		.content-block:before{
+			position: relative;
+			border: solid 1px;
+		}
+
+		.content-header {
+			margin: auto;
+			padding: 5px;
+			background-color: _palette(bg);
+			margin:{
+				top: 20px;
+				bottom: 25px;
+			}
+			z-index: 50;
+		}
+
+		.content-block{
+			@include padding(1em, 1em);
+			// padding: 10px 5px 5px 5px;
+			margin:{
+				left: 20px;
+				bottom: 25px;
+			}
+			.content-spot{
+				width: 20px;
+				height: 20px;
+				top: -8px;
+				left: -30px;
+				border: 1px solid _palette(border);
+				border-radius: 50%;
+				background-color: _palette(bg);
+				z-index: 20;
+			}
+			&:before{
+				position: absolute;
+				left: 20px;
+				right: auto;
+				width: 1em;
+				height: 1px;
+				content: " ";
+				background-color: _palette(border);
+			}
+			.content-content{
+				top: -35px;
+				margin-bottom: -45px;
+				h4{
+					// styling
+				}
+
+				span{
+					// styling
+				}
+
+				p{
+					// styling
+				}
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			min-width: 0;
+			width: 100%;
+			// @include padding(4em, 2em);
+
+			// .avatar {
+			// 	&:before {
+			// 		left: -2em;
+			// 		width: calc(100% + 4em);
+			// 	}
+			// }
+		}
+
+		// body.is-loading & {
+		// 	opacity: 0;
+		// 	@include vendor('transform', 'rotateX(15deg)');
+		// }
+	}
