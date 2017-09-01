@@ -608,7 +608,7 @@ button,
     margin-bottom: 1.5em; }
     #confidence .heading h2 {
       width: 50%;
-      margin: 0 auto;
+      margin: 1em auto;
       background-color: #ffffff;
       border: 1px solid #c8cccf; }
     #confidence .heading h4 {
@@ -686,7 +686,7 @@ button,
     margin-bottom: 1.5em; }
     #portfolio .heading h2 {
       width: 50%;
-      margin: 0 auto;
+      margin: 1em auto;
       background-color: #ffffff;
       border: 1px solid #c8cccf; }
     #portfolio .heading h4 {
