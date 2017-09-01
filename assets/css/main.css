@@ -746,6 +746,72 @@ button,
       min-width: 0;
       width: 100%; } }
 
+/* Skill section */
+#wall {
+  position: relative;
+  max-width: 768px;
+  min-width: 27em;
+  padding: 1em 1em 0.1em 1em ;
+  margin-top: 2em;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: default;
+  opacity: 0.95;
+  text-align: center; }
+  #wall .heading {
+    position: relative;
+    display: block;
+    margin-bottom: 1.5em; }
+    #wall .heading h2 {
+      width: 50%;
+      margin: 1em auto;
+      background-color: #ffffff;
+      border: 1px solid #c8cccf; }
+    #wall .heading h4 {
+      margin-top: 0.5em; }
+      #wall .heading h4 .cursor {
+        font-weight: 100;
+        font-size: 1.5em;
+        color: #2E3D48;
+        -moz-animation: 1s blink step-end infinite;
+        -webkit-animation: 1s blink step-end infinite;
+        -ms-animation: 1s blink step-end infinite;
+        animation: 1s blink step-end infinite; }
+@-moz-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #ff7496; } }
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #ff7496; } }
+@-ms-keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #ff7496; } }
+@keyframes blink {
+  from, to {
+    color: transparent; }
+  50% {
+    color: #ff7496; } }
+    #wall .heading:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0.8em;
+      left: -1em;
+      width: calc(100% + 2em);
+      height: 1px;
+      z-index: -1;
+      background: #c8cccf; }
+  @media screen and (max-width: 480px) {
+    #wall {
+      min-width: 0;
+      width: 100%; } }
+
 /* Footer */
 #footer {
   -moz-align-self: -moz-flex-end;
