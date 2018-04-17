@@ -73,8 +73,8 @@
 			}
 		}
 
-		body.is-loading & {
-			opacity: 0;
-			@include vendor('transform', 'rotateX(15deg)');
-		}
+		// body.is-loading & {
+		// 	opacity: 0;
+		// 	@include vendor('transform', 'rotateX(15deg)');
+		// }
 	}
