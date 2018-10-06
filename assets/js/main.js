@@ -23,7 +23,7 @@ domReady( function () {
                         let content = post.content.substr(0, 400);
                         content = content.substr(0, Math.min(content.length, content.lastIndexOf(" ")));
 
-                        posts += `<li><a target="_blank" href="${post.link}"><h3>${post.title}</h3><a><p>${content}</p></li>`;
+                        posts += `<a target="_blank" href="${post.link}"><li><h3>${post.title}</h3><p>${content}</p></li><a><hr/>`;
                     })
                     posts += '</ul>';
 
