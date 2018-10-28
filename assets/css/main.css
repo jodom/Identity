@@ -276,9 +276,9 @@ ol {
 	padding-left: 1.25em;
 }
 
-ol li {
+/* ol li {
 	padding-left: 0.25em;
-}
+} */
 
 ul {
 	list-style: disc;
@@ -286,9 +286,9 @@ ul {
 	padding-left: 1em;
 }
 
-ul li {
+/* ul li {
 	padding-left: 0.5em;
-}
+} */
 
 ul.alt {
 	list-style: none;
@@ -576,6 +576,11 @@ button:disabled,
 	-webkit-animation: 1s blink step-end infinite;
 	-ms-animation: 1s blink step-end infinite;
 	animation: 1s blink step-end infinite;
+}
+
+#wall p {
+    margin: 0;
+    text-transform: none;
 }
 
 @-moz-keyframes blink {
