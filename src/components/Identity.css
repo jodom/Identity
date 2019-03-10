@@ -2,8 +2,7 @@
 	display: grid;
 	grid-template-rows: 45% auto 10%;
 	position: relative;
-	max-width: 100%;
-	min-width: 27em;
+	width: 27em;
 	min-height: 40em;
 	padding: 4.5em 3em 3em 3em;
 	background: #ffffff;
