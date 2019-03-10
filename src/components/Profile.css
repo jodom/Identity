@@ -43,3 +43,21 @@
 		width: calc(100% + 4em);
 	}
 }
+
+.caption {
+	display: grid;
+	grid-template-rows: 70% auto;
+}
+
+.caption .name {
+	/* font-weight: bold; */
+	font-size: 1.85em;
+	letter-spacing: 0.22em;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+	.caption .name {
+		font-size: 1.65em;
+	}
+}

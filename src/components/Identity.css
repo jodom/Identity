@@ -1,6 +1,6 @@
 .identity {
 	display: grid;
-	grid-template-rows: 45% auto 10%;
+	grid-template-rows: 60% auto 10%;
 	position: relative;
 	width: 27em;
 	min-height: 40em;

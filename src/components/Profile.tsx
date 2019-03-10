@@ -17,7 +17,7 @@ export const Profile = React.memo((props: ProfileProps) => {
       <div className='avatar'>
         <img src={image.url} alt={image.alt} />
       </div>
-      <div>
+      <div className='caption'>
         <span className='name'>{name}</span>
         <span className='tagline'>{tagline}</span>
       </div>
