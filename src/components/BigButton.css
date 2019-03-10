@@ -1,0 +1,20 @@
+.blog-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-button {
+    text-decoration: none;
+    padding: 0.5em;
+    border: 2px solid #ff7496;
+    border-radius: 0.2em;
+    color: #ff7496;
+    font-weight: bold;
+}
+
+.big-button:hover {
+    background-color: #ff7496;
+    color: inherit;
+}
