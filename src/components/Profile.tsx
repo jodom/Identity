@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Profile.css';
 
 export interface ProfileProps {
   name: string,
