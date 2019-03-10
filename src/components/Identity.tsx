@@ -14,7 +14,7 @@ const profileProps: ProfileProps = {
 
 export const Identity  = React.memo(() => {
   return (
-    <div className='Identity'>
+    <div className='identity'>
       <Profile {...profileProps}/>
       <div className='social-well'>
         <a target='blank_' href='https://github.com/jodom' className='fa fa-github'>Github</a>
