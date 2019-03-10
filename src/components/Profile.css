@@ -22,7 +22,19 @@
 	width: calc(100% + 6em);
 	height: 1px;
 	z-index: -1;
-	background: #c8cccf;
+	background: #ff7496;
+}
+
+.profile .avatar:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: -3em;
+	width: calc(50% + 6em);
+	height: 1px;
+	z-index: -1;
+	background:  rgba(0, 255, 170, 0.35);
 }
 
 @media screen and (max-width: 480px) {
