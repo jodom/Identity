@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/main.css';
-import Identity from './components/Identity';
+import { Identity } from './components';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Identity />, document.getElementById('wrapper'));
