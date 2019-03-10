@@ -17,4 +17,7 @@
 .big-button:hover {
     background-color: #ff7496;
     color: inherit;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(145,140,145,1);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(145,140,145,1);
+    box-shadow: 0px 2px 10px 0px rgba(145,140,145,1);
 }
