@@ -12,13 +12,13 @@ export interface ProfileProps {
 export const Profile = React.memo((props: ProfileProps) => {
   const {name, image, tagline} = props;
   return (
-    <div className="profile">
-      <div className="avatar">
+    <div className='profile'>
+      <div className='avatar'>
         <img src={image.url} alt={image.alt} />
       </div>
       <div>
-        <span className="name">{name}</span>
-        <span className="tagline">{tagline}</span>
+        <span className='name'>{name}</span>
+        <span className='tagline'>{tagline}</span>
       </div>
     </div>
   );
