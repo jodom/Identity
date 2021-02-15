@@ -1,10 +1,10 @@
 .identity {
   display: grid;
-  grid-template-rows: 60% auto 10%;
+  grid-template-rows: 60% auto 12%;
   position: relative;
   width: 27em;
   min-height: 40em;
-  padding: 4.5em 3em 3em 3em;
+  padding: 4em 3em 2em 3em;
   background: #ffffff;
   border-radius: 4px;
   cursor: default;

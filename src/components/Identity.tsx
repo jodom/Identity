@@ -38,8 +38,8 @@ export const Identity = React.memo(() => {
         />
       </FlexRow>
       <FlexRow>
-        <Button link={"https://calendly.com/konuko_j"} label={"CALENDAR"} />
-        <Button link={"https://medium.com/@konuko_j"} label={"MUSINGS"} />
+        <Button link={"https://calendly.com/konuko_j"} label={"calendar"} />
+        <Button link={"https://medium.com/@konuko_j"} label={"writings"} />
       </FlexRow>
     </div>
   );
